@@ -1,4 +1,4 @@
-1) If you have not yet installed hydra or it's not already installed in your browser
+1) If you have not yet installed hydra or it's not already installed in your pc
    type "sudo apt install hydra" in your terminal.
 
 2) If you use kali linux go in usr/share/wordlists and rockyou.txt,
